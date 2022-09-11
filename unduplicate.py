@@ -101,4 +101,4 @@ if __name__ == '__main__':
     if should_delete():
         for file in _deletable_files:
             print(f"Deleting {file}")
-            #os.remove(file)
+            os.remove(file)
